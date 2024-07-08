@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Протокол Эксгумации</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключение шрифта Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="form">
+        Форма № 2 а
+    </div>
+    <div class="asterisk-disc">
+        <img src="img/asterisk.png" alt="Важно!" class="asterisk-disc-img"> - разделы/поля/окна, обязательные для
+        заполнения
+    </div>
+    <!-- Контейнер -->
+    <div class="container">
+        <!-- Главный заголовок -->
+        <section class="main-title">
+            ВСЕРОССИЙСКИЙ ИНФОРМАЦИОННО - ПОИСКОВЫЙ ЦЕНТР
+        </section>
+        <!-- Инфо-блок + лого -->
+        <section class="info-section">
+            <!-- Адрес -->
+            <div class="address">
+                420039, г. Казань-39, а/я 122
+            </div>
+            <!-- Логотип -->
+            <div class="logo-iamge">
+                <img src="img/logo.jpg" alt="Логотип" class="logo">
+            </div>
+            <!-- Инфо-блок -->
+            <div class="info-box">
+                тел.: (843) 5550255, <br>
+                факс (843) 5543722 <br>
+                e-mail: v-ipc@mail.ru. www.v-ipc.ru.
+            </div>
+        </section>
+        <!-- Заголовок протокола с номерами -->
+        <section class="protocol-title">
+            <!-- Верхняя часть заголовка протокола с номерами -->
+            <div class="protocol-title-numbers">
+                <!-- Текст заголовка протокола с номерами -->
+                <div class="protocol-title-text">
+                    ПРОТОКОЛ ЭКСГУМАЦИИ №
+                </div>
+                <!-- Первое поле заголовка протокола с номерами -->
+                <div class="protocol-box-first">
+                    <input type="text" class="left-box-first" placeholder="№ раскопа по отряду">
+                </div>
+                <!-- Точка с запятой -->
+                <div class="semicolon">;</div>
+                <!-- Второре поле заголовка протокола с номерами -->
+                <div class="protocol-box-second">
+                    <input type="text" class="left-box-second" placeholder="№ останков в раскопе">
+                </div>
+                <!-- Слэш -->
+                <div class="slash">/</div>
+                <!-- Третье поле заголовка протокола с номерами -->
+                <div class="protocol-box-first">
+                    <input type="text" class="left-box-first" placeholder="№ раскопа по отряду">
+                </div>
+                <!-- Точка с запятой -->
+                <div class="semicolon">;</div>
+                <!-- Четвертое поле заголовка протокола с номерами -->
+                <div class="protocol-box-second">
+                    <input type="text" class="left-box-second" placeholder="№ останков в раскопе">
+                </div>
+            </div>
+            <!-- Нижняя часть с продолжением текста заголовка протокола с номерами -->
+            <div class="protocol-title-disc">
+                останков человека, найденных при полевых поисковых работах.
+            </div>
+        </section>
+        <!-- Положение к протоколу + сквозной номер -->
+        <section class="first-section-disc">
+            <!-- Приложение к протоколу -->
+            <div class="application">
+                <!-- Знак астериск -->
+                <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+                <!-- Заголовок приложения -->
+                <div class="application-title">
+                    Приложение к протоколу раскопа
+                </div>
+                <!-- Дата приложения -->
+                <div class="application-date">
+                    № <input type="text"> от«<input type="text" size="3">»<input type="text">20<input type="text"
+                        size="3">г.
+                </div>
+            </div>
+            <!-- Сквозной номер -->
+            <div class="through-number">
+                <!-- Текст сквозного номера -->
+                <div class="through-number-text">
+                    <!-- Заголовок текста сквозного номера -->
+                    <div class="through-number-text-title">
+                        Сквозной №
+                    </div>
+                    <!-- Пояснение к сквозному номеру -->
+                    <div class="through-number-text-disc">
+                        (заполняется в ВИПЦ)
+                    </div>
+                </div>
+                <!-- Коробка для заполнения -->
+                <div class="through-number-box">
+                    <input type="text" class="through-number-box-input">
+                </div>
+            </div>
+        </section>
+        <!-- Дата окончания подъема + № останков + добор -->
+        <section class="second-section-disc">
+            <!-- Дата окончания подъема останков -->
+            <div class="end-date-rise">
+                <!-- Знак астериска -->
+                <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+                <!-- Заголовок даты окончания подъема -->
+                <div class="end-date-rise-title">
+                    Дата окончания подъёма останков
+                </div>
+                <!-- Дата окончания подъема -->
+                <div class="end-date-rise-date">
+                    «<input type="text" size="3">»<input type="text">20<input type="text" size="3">г.
+                </div>
+            </div>
+            <!-- Номер останков по схеме среза -->
+            <div class="number-slice">
+                <!-- Текст номера останков по схеме среза -->
+                <div class="number-slice-disc">
+                    № останков по <br>
+                    схеме среза раскопа
+                </div>
+                <!-- Коробка для номера -->
+                <div class="number-slice-box">
+                    <input type="text" class="number-slice-box-input">
+                </div>
+            </div>
+            <!-- Добор -->
+            <div class="dobor">
+                <!-- Знак астериска -->
+                <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+                <!-- Кнопка да -->
+                <div class="dobor-yes">
+                    Да
+                    <input type="checkbox">
+                </div>
+                <!-- Заголовок - Добор -->
+                <div class="dobor-title">
+                    Добор:
+                </div>
+                <!-- Кнопка Нет -->
+                <div class="dobor-no">
+                    Нет
+                    <input type="checkbox">
+                </div>
+            </div>
+        </section>
+        <!-- Принадлежность к армии -->
+        <section class="third-section-disc">
+            <!-- Знак астериска -->
+            <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+            <!-- Заголовок принадлежности к армии -->
+            <div class="belonging-title">
+                Принадлежность к армии:
+            </div>
+            <!-- Принадлежность к РККА -->
+            <div class="belonging-rkka">
+                РККА
+            </div>
+            <!-- Галочка -->
+            <input type="checkbox">
+            <!-- Принадлежность к другому -->
+            <div class="belonging-other">
+                Другое
+            </div>
+            <!-- Галочка -->
+            <input type="checkbox">
+            <!-- Обоснование -->
+            <div class="belonging-justification">
+                (Обоснование)
+            </div>
+            <div class="justification-box">
+                <input type="text" size="55">
+            </div>
+        </section>
+        <!-- Особенность залегания останков -->
+        <div class="fourth-section-disc">
+            <!-- Знак астериска -->
+            <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+            <!-- Заголовок особенности залегания останков -->
+            <div class="future-occurrence-title">
+                Особенности залегания останков:
+            </div>
+            <!-- Поле для заполнения особенности залегания останков -->
+            <input type="text" size="110" class="future-occurrence-box-input">
+        </div>
+        <!-- Пятая секция с вещами -->
+        <section class="fifth-section-disc">
+            <!-- Именная вещь с останками -->
+            <div class="presonal-item-remains">
+                У останков обнаружена <br>
+                именная вещь
+                <input type="checkbox">
+            </div>
+            <!-- Именная вещь без останков -->
+            <div class="presonal-item-without-remains">
+                Именная вещь <br>
+                обнаружена без останков
+                <input type="checkbox">
+            </div>
+            <!-- Медальон -->
+            <div class="medallion">
+                Медальон
+                <input type="checkbox">
+            </div>
+        </section>
+        <!-- Секция с информацией о скелете -->
+        <section class="skeleton">
+            <!-- Левая часть секции с планом и описанием скелета -->
+            <section class="skeleton-plan">
+                <!-- Черепа -->
+                <img src="img/skull.jpg" alt="Череп" class="skull-left">
+                <img src="img/skull.jpg" alt="Череп" class="skull-right">
+                <!-- Шейные позвонки -->
+                <img src="img/cervical-vertebrae.jpg" alt="Шейные позвонки" class="cervical-vertebrae">
+                <!-- Грудина -->
+                <img src="img/sternum.jpg" alt="Грудина" class="sternum">
+                <!-- Основная часть тела -->
+                <img src="img/body.jpg" alt="Тело" class="body">
+                <!-- Руки -->
+                <img src="img/hand.jpg" alt="Правая рука" class="right-hand">
+                <img src="img/hand.jpg" alt="Левая рука" class="left-hand">
+                <!-- Ноги -->
+                <img src="img/leg.jpg" alt="Правая нога" class="right-leg">
+                <img src="img/leg.jpg" alt="Левая нога" class="left-leg">
+                <!-- Знак астериска -->
+                <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+                <!-- блок с полом скелета -->
+                <div class="gender">
+                    <!-- Мужской пол -->
+                    <div class="male-and-asterisk">
+                        <input type="checkbox">
+                        M
+                    </div>
+                    <!-- Надпись "Пол" -->
+                    <div class="gender-title">
+                        Пол
+                    </div>
+                    <!-- Женский пол -->
+                    <div class="female">
+                        Ж
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <!-- Стороны скелета -->
+                <div class="sides">
+                    <div class="right">Пр.</div>
+                    <div class="left">Лев.</div>
+                </div>
+                <img src="img/skeleton-disc.png" alt="Описание скелета" class="skeleton-disc">
+            </section>
+            <!-- Правая часть с информацией -->
+            <section class="skeleton-info">
+                <!-- Фотофиксация -->
+                <div class="photofixation">
+                    <!-- Заголовок фотофиксации -->
+                    <div class="photofixation-title">
+                        Фотофиксация (фотографии приложить)
+                    </div>
+                    <!-- Пояснение к фотофиксации -->
+                    <div class="photofixation-title-disc">
+                        То, что сфотографировано, отметьте галочкой.
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фото места обнаружения с привязкой к местности <br>
+                            (панорамные снимки с № раскопа, указателем с-ю)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фото места обнаружения до начала работ (детальные <br>
+                            снимки с № раскопа, указателем север-юг)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фотографии расположения скелета в раскопе, с <br>
+                            привязкой к раскопу (с № протокола, эксгумационно- <br>
+                            масштабной линейкой, указателем север-юг)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фотографии особенностей скелета в раскопе, (общий <br>
+                            план, в крупном масштабе - ранения, повреждения и <br>
+                            др.) (с № протокола, эксгумационно-масштабной <br>
+                            линейкой, указателем север-юг)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фотографии черепа: анфас, профиль, швы зарастания <br>
+                            черепа; зубная формула (с № протокола, <br>
+                            эксгумационно-масштабной линейкой)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фотографии скелета, поднятого из раскопа и <br>
+                            уложенного на эксгумационном баннере, <br>
+                            показывающие наличие костей и их особенности (с № <br>
+                            протокола эксгумации, эксгумационно-масштабной <br>
+                            линейкой)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фото именного артефакта, личных вещей погибшего (с <br>
+                            № протокола эксгумации, эксгумационно-масштабной <br>
+                            линейкой)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фото зачищенного материка, дна погребения (с № <br>
+                            протокола, эксгумационно-масштабной линейкой, <br>
+                            указателем север-юг)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фото места обнаружения, сделанное после <br>
+                            рекультивационных работ (с № протокола, указателем <br>
+                            север-юг)
+                        </div>
+                    </div>
+                    <div class="mark">
+                        Да
+                        <input type="checkbox">
+                        –
+                        <div class="mark-disc">
+                            фото эксгумационной команды (указать дату)
+                        </div>
+                    </div>
+                </div>
+                <!-- Участники -->
+                <div class="participants">
+                    <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+                    <!-- Ответственный -->
+                    <div class="major">
+                        <!-- Заголовок блока с ответственным -->
+                        <div class="majot-title"> Ф.И.О. ответственного за эксгумацию, № тел, e-mail:</div>
+                        <input type="text" class="string">
+                        <input type="text" class="string">
+                    </div>
+                    <!-- Другие участники -->
+                    <div class="other-participants">
+                        <div class="other-participants-title">
+                            Эксгуматоры (Ф.И.О., отряд, № телефона, e-mail):
+                        </div>
+                        <input type="text" class="string">
+                        <input type="text" class="string">
+                        <input type="text" class="string">
+                        <input type="text" class="string">
+                        <input type="text" class="string">
+                    </div>
+                </div>
+                <!-- Дополнительная информация -->
+                <div class="extra-info">
+                    <!-- Текст с дополнительной информацией -->
+                    <div class="extra-info-texts">
+                        <!-- Данные об медальоне -->
+                        <div>Медальон на экспертизе <input type="text" class="string" size="30"></div>
+                        <input type="text" class="string">
+                        <!-- Данные об ДНК -->
+                        <div>Образцы на анализ ДНК <input type="text" class="string" size="30"
+                                style="margin-left: 5px;"></div>
+                        <input type="text" class="string">
+                    </div>
+                    <div class="extra-info-check">
+                        <input type="checkbox">
+                        <input type="checkbox">
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- Информационный лист -->
+        <section class="info-list">
+            <!-- Предупреждение к написанию -->
+            <div class="info-list-disc">
+                Пишите разборчиво, нужное подчеркните. При необходимости поясните на чистом листе бумаги и прикрепите
+                его к протоколу
+            </div>
+            <!-- Знак астериска -->
+            <img src="img/asterisk.png" alt="Важно!" class="asterisk">
+            <!-- Первый вопрос -->
+            <div class="question">
+                <div class="question-text question-text-extra"><span>1.</span> Подвергались ли останки осквернению или
+                    неполному переносу?</div>
+                <div class="question-answer" contenteditable="true" placeholder="ДА/НЕТ, ЧАСТИЧНО"></div>
+            </div>
+            <!-- Второй вопрос -->
+            <div class="question">
+                <div class="question-text"><span>2.</span>Применялся ли археологический способ эксгумации?</div>
+                <div class="question-answer" contenteditable="true" placeholder="ДА/НЕТ"></div>
+            </div>
+            <!-- Третий вопрос -->
+            <div class="question">
+                <div class="question-text"><span>3.</span>Состояние останков:</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="ХОРОШЕЕ (кости целые, без повреждений, кость твёрдая, крепкая) СРЕДНЕЕ (кости раздавлены и фрагментированы, но кость хорошей сохранности) ПЛОХОЕ (хрупкие, верхний слой остлаивается, лицевые кости очень хрупкие, особенно в области эпифизов и тазовых костей.) ОЧЕНЬ ПЛОХОЕ (крошатся при расчистке, разрушаются при высыхании) ИСТЛЕЛИ (превратились в порошок, в хрупкую сетчатую стркуктуру или вообще не видны)"></div>
+            </div>
+            <!-- Четвертый вопрос -->
+            <div class="question">
+                <div class="question-text"><span>4.</span>Поза скелета:</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="ЛЁЖА, СИДЯ, НА СПИНЕ, НИЧКОМ, НА БОКУ (ЛЕВ./ПР.)"></div>
+                <div class="question-text question-text-extra">Характер ранений, повреждений; антропологических
+                    особенностей костей; цвет волос; описание черепа:</div>
+                <div class="question-answer" contenteditable="true" placeholder="..."></div>
+            </div>
+            <!-- Пятый вопрос -->
+            <div class="question">
+                <div class="question-text"><span>5.</span>Вещи, обнаруженные в ходе эксгумации; обмундирование (модель):
+                </div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="ЗИМНЯЯ ШАПКА, БУДЕНОВКА, ФУРАЖКА, ШЛЕМОФОН, КУБАНКА, ПИЛОТКА БЕРЕТ, БЕСКОЗЫРКА, ШАРФ / ШИНЕЛЬ, ПОЛУШУБОК, БУШЛАТ, ТЕЛОГРЕЙКА, КОЖАНАЯ КУРТКА / СВИТЕР, ГИМНАСТЁРКА, КИТЕЛЬ, НАТЕЛЬНАЯ РУБАХА, МАЙКА / КОМБИНЕЗОН, ГАЛИФЕ, БРИДЖИ, БРЮКИ, ШАРОВАРЫ / ПОЯСНОЙ РЕМЕНЬ, НАТЕЛЬНЫЙ РЕМЕНЬ, ПОРТУПЕЯ, ПРЯЖКА / ПОРТЯНКИ, НОСКИ, ОБМОТКИ, БОТИНКИ, САПОГИ, УНТЫ, ВАЛЕНКИ / ПЛАЩ-ПАЛАТКА, МАСКХАЛАТ, ПЕРЧАТКИ, РУКАВИЦЫ, ДРУГОЕ (ПОЯСНИТЬ)"></div>
+            </div>
+            <!-- Шестой вопрос -->
+            <div class="question">
+                <div class="question-text"><span>6.</span>Снаряжение (модель):</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="КАСКА, СТАЛЬНОЙ НАГРУДНИК / ШТЫК, КОРТИК, НОЖ, САПЁРНАЯ ЛОПАТА, БОЛЬШАЯ САПЁРНАЯ ЛОПАТА, КИРКА / ПРОТИВОГАЗ, КОТЕЛОК, ФЛЯГА, КРУЖКА / ПОЛЕВАЯ СУМКА, МЕДСУМКА, ВЕЩМЕШОК, ПОДСУМОК, РАНЕЦ, ЧЕХОЛ, КОБУРА, ПОДСУМКИ / МАСЛЁНКА, ПЕНАЛ, ТАБЛЕТКИ ХЛОРА, МЕДИКАМЕНТЫ, ИНДИВИДУАЛЬНЫЙ ПАКЕТ / БИНОКЛЬ, ФОТОАППАРАТ, ПРИЦЕЛ, ОЧКИ, ЧАСЫ, КОМПАС, ДРУГОЕ (ПОЯСНИТЬ)"></div>
+            </div>
+            <!-- Седьмой вопрос -->
+            <div class="question">
+                <div class="question-text"><span>7.</span>Знаки различия:</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="КОКАРДА, ШЕВРОН, ЭМБЛЕМЫ, ЗНАЧКИ, ПОГОНЫ, ПЕТЛИЦЫ, ВОЕННЫЕ НАГРАДЫ, ПУГОВИЦЫ, ДРУГОЕ (ПОЯСНИТЬ)"></div>
+            </div>
+            <!-- Восьмой вопрос -->
+            <div class="question">
+                <div class="question-text"><span>8.</span>Оружие (модель):</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="ПРОТИВОТАНКОВОЕ РУЖЬЁ, ВИНТОВКА, ПИСТОЛЕТ-ПУЛЕМЁТ, ПУЛЕМЁТ, ПИСТОЛЕТ, ДРУГОЕ (ПОЯСНИТЬ)"></div>
+            </div>
+            <!-- Девятый вопрос -->
+            <div class="question">
+                <div class="question-text"><span>9.</span>Боеприпасы (модель):</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="МИНЫ, ГРАНАТЫ, БУТЫЛКИ С ЗАЖИГАТЕЛЬНОЙ СМЕСЬЮ, ПАТРОНЫ, ГИЛЬЗЫ, ДРУГОЕ (ПОЯСНИТЬ)"></div>
+            </div>
+            <!-- Десятый вопрос -->
+            <div class="question">
+                <div class="question-text"><span>10.</span>Личные вещи (модель):</div>
+                <div class="question-answer" contenteditable="true"
+                    placeholder="ИКОНА, НАТЕЛЬНЫЙ КРЕСТ, ЛАДАНКА, ЦЕПОЧКА, КОЛЬЦО, ПЕРСТЕНЬ, ПОРТСИГАР, ЗАЖИГАЛКА / ЗЕРКАЛЬЦЕ, РАСЧЁСКА, МЫЛЬНИЦА, ЗУБНАЯ ЩЁТКА, ЛОЖКА, ВИЛКА, ПОМАЗОК, БРИТВА СТАНОК, ОПАСНАЯ БРИТВА / ПОРТМОНЕ, КОШЕЛЁК, МОНЕТЫ, БАНКНОТЫ, РУЧКА, КАРАНДАШ, ЛАСТИК, ДРУГОЕ (ПОЯСНИТЬ)"></div>
+            </div>
+            <!-- Одиннадцатый вопрос -->
+            <div class="question">
+                <div class="question-text"><span>11.</span>Дополнения/пояснения/Особенности</div>
+                <div class="question-answer" contenteditable="true" placeholder="..."></div>
+            </div>
+        </section>
+        <!-- Две секции с личными и остальными данными -->
+        <section class="global-info">
+            <!-- Секция с личной информацией -->
+            <section class="global-personal-info">
+                <!-- Блок с информацией о боеприпасах + фото позы останков -->
+                <div class="ammo_and_photo">
+                    <!-- Информация об боеприпасах -->
+                    <div class="ammo">
+                        <div class="ammo-title">
+                            <p>Калибр, маркировка, <br>
+                                гильз/боеприпасов</p>
+                        </div>
+                        <div class="patron-block">
+                            <div class="one-patron-block">
+                                <img src="img/patron.jpg" alt="Патрон">
+                                <input type="text" size="2" class="first-patron-input">
+                                <input type="text" size="2" class="second-patron-input">
+                                <input type="text" size="2" class="third-patron-input">
+                                <input type="text" size="2" class="fourth-patron-input">
+                            </div>
+                            <div class="one-patron-block">
+                                <img src="img/patron.jpg" alt="Патрон">
+                                <input type="text" size="2" class="first-patron-input">
+                                <input type="text" size="2" class="second-patron-input">
+                                <input type="text" size="2" class="third-patron-input">
+                                <input type="text" size="2" class="fourth-patron-input">
+                            </div>
+                            <div class="one-patron-block">
+                                <img src="img/patron.jpg" alt="Патрон">
+                                <input type="text" size="2" class="first-patron-input">
+                                <input type="text" size="2" class="second-patron-input">
+                                <input type="text" size="2" class="third-patron-input">
+                                <input type="text" size="2" class="fourth-patron-input">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Фото позы останков -->
+                    <div class="photo">
+                        <!-- Заголовок для фото с останками -->
+                        <div class="photo-title">
+                            Схема /поза останков (сделать фото останков в раскопе)
+                        </div>
+                    </div>
+                </div>
+                <!-- Блок с личной информацией -->
+                <div class="personal-info">
+                    <!-- Первая часть с персональной информацией -->
+                    <div class="personal-info-part">
+                        <!-- Левая часть персональной информации -->
+                        <div class="personal-info-part-left standart-personal-info-text">
+                            <div>Артефакт <input type="text" size="27" class="string"></div>
+                            <div>Рег. № <input type="text" size="30" class="string"></div>
+                            <div>Фамилия <input type="text" class="string" size="26"></div>  
+                            <div>Имя <input type="text" class="string" size="33"></div>  
+                            <div>Отчество <input type="text" class="string" size="26"></div> 
+                            <div>Год рождения <input type="text" size="20" class="string"></div>
+                            <div>Воинское звание <input type="text" size="16" class="string"></div>             
+                        </div>
+                        <!-- Правая часть персональной информации -->
+                        <div class="personal-info-part-right  standart-personal-info-text">
+                            <div>Данные архива <input type="text" size="20" class="string"></div>
+                            <div><input type="text" size="41" class="string"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                        </div>
+                    </div>
+                    <!-- Заголовок второй части персональной информации -->
+                    <div class="personal-info-title">
+                        Уроженец:
+                    </div>
+                    <!-- Вторая часть персональной информации -->
+                    <div class="personal-info-part">
+                        <!-- Левая часть персональной информации -->
+                        <div class="personal-info-part-left standart-personal-info-text">
+                            <div>Республика <input type="text" size="24" class="string"></div>
+                            <div>Край <input type="text" size="32" class="string"></div>
+                            <div>Область <input type="text" class="string" size="28"></div>  
+                            <div>Город <input type="text" class="string" size="31"></div>  
+                            <div>Район <input type="text" class="string" size="31"></div> 
+                            <div>С/Совет <input type="text" size="28" class="string"></div>
+                            <div>Деревня <input type="text" size="28" class="string"></div>     
+                            <div>Мобилизован РВК <input type="text" size="16" class="string"></div>          
+                        </div>
+                        <!-- Правая часть персональной информации -->
+                        <div class="personal-info-part-right  standart-personal-info-text">
+                            <div><input type="text" size="41" class="string"></div>
+                            <div><input type="text" size="41" class="string"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                        </div>
+                    </div>
+                    <!-- Заголовок третьей части персональной информации -->
+                    <div class="personal-info-title">
+                        Адрес семьи:
+                    </div>
+                    <!-- Третья часть персональной информации -->
+                    <div class="personal-info-part">
+                        <!-- Левая часть персональной информации -->
+                        <div class="personal-info-part-left standart-personal-info-text">
+                            <div>Республика <input type="text" size="24" class="string"></div>
+                            <div>Край <input type="text" size="32" class="string"></div>
+                            <div>Область <input type="text" class="string" size="28"></div>  
+                            <div>Город <input type="text" class="string" size="31"></div>  
+                            <div>Район <input type="text" class="string" size="31"></div> 
+                            <div>С/Совет <input type="text" size="28" class="string"></div>
+                            <div>Деревня <input type="text" size="28" class="string"></div>     
+                            <div>ФИО <input type="text" size="33" class="string"></div>          
+                        </div>
+                        <!-- Правая часть персональной информации -->
+                        <div class="personal-info-part-right  standart-personal-info-text">
+                            <div><input type="text" size="41" class="string"></div>
+                            <div><input type="text" size="41" class="string"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                            <div><input type="text" class="string" size="41"></div>
+                        </div>
+                    </div>
+                    <!-- Основание вх -->
+                    <div class="personal-info-extra">
+                        Основание Вх.№ <input type="text" class="string" size="12"> Оп. <input type="text"class="string" size="9"> Дел. <input type="text" class="string" size="3"> Лист. <input type="text" size="3" class="string">
+                    </div>
+                </div>
+            </section>
+            <!-- Секция с эксгумационной информацией -->
+            <section class="exhumation-info">
+                <!-- Место хранения именного артефакта -->
+                <div class="artefact-place-store">
+                    <!-- Заголовок места хранения именного артефакта -->
+                    <div class="artefact-place-store-title">
+                        Место хранения именного артефакта: <input type="text" size="11" class="string">
+                    </div>
+                    <input type="text" size="77" class="string">
+                    <div class="artefact-place-store-other-text">
+                        Ф.И.О. <input type="text" size="65" class="string">
+                        <input type="text" size="77" class="string">
+                        Индекс <input type="text" size="63" class="string">
+                        Страна <input type="text" size="63" class="string">
+                        Область <input type="text" size="62" class="string">
+                        Район <input type="text" size="65" class="string">
+                        Город <input type="text" size="65" class="string">
+                        Улица <input type="text" size="65" class="string">
+                        Дом <input type="text" size="30" class="string"> кв. <input type="text" size="27" class="string">
+                        Тел./ Факс <input type="text" size="58" class="string">
+                        е-mai <input type="text" size="66" class="string">
+                    </div>
+                </div>
+                <!-- Информация об анализе ДНК -->
+                <div class="dna-analysis">
+                    <!-- Номер анализа и дата -->
+                    <div class="dna-analysis-date-and-number">
+                        Дата «<input type="text" size="3" class="string">»<input type="text" size="9" class="string">20<input type="text" size="3" class="string">г., у останков взяты
+                        образцы на анализ ДНК, их № <input type="text" size="25" class="string">
+                    </div>
+                    <!-- № образцов, название кости -->
+                    <div class="sample-number-bone-name">
+                        (№ образцов, название кости)
+                        <input type="text" size="77" class="string">
+                        <input type="text" size="77" class="string">
+                        <input type="text" size="77" class="string">
+                        <input type="text" size="77" class="string">
+                       <div class="sample-number-bone-name-extra">
+                        Указать адрес и название исследовательского центра, куда <br>
+                        направлены образцы ДНК для хранения и обработки <br>
+                        (При работе с образцами ДНК строго соблюдайте инструкцию)
+                       </div> 
+                    </div>
+                </div>
+                <!-- Отчет -->
+                <div class="report">
+                    <!-- Текст отчета -->
+                    <div class="report-title">
+                        Останки с места эксгумационных работ собраны и <br>
+                        уложены в эксгумационный пакет №
+                        <input type="text" size="77" class="string">
+                        <input type="text" size="77" class="string">
+                    </div>
+                    <!-- Отчет -->
+                    <img src="img/report.png" alt="Отчет" class="report-img">
+                </div>
+                <!-- Пустое поле -->
+                <div class="emty-field">
+                    Поле для записей:
+                </div>
+            </section>
+        </section>
+        <!-- Исполнитель, оформивший документ -->
+        <div class="executor">
+            <!-- Заголовок исполнителя -->
+            <div class="executor-title">
+                Исполнитель (оформивший документ):
+            </div>
+            <!-- Текстовая зона об исполнителе -->
+            <div class="executor-text-area">
+                <!-- ФИО исполнителя -->
+                <div class="executor-text-area-fio">
+                    <div>Фамилия <input type="text" size="60" class="string"></div>
+                    <div>Имя <input type="text" size="68" class="string"></div>
+                    <div>Отчество <input type="text" size="59" class="string"></div>
+                </div>
+                <!-- Личная информация исполнителя -->
+                <div class="executor-personal-info">
+                    <div>Город <input type="text" size="30" class="string"> Тел. <input type="text" size="30" class="string"></div>
+                    <div>E-mail <input type="text" size="74" class="string"></div>
+                    <div>Подпись <input type="text" size="40" class="string"> М.П.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

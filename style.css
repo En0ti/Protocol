@@ -1,0 +1,845 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    border: none;
+    background-color: rgb(225, 237, 246);
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="checkbox"] {
+    width: 30px; 
+    height: 30px; 
+    cursor: pointer;
+}
+
+input[type="text"] {
+    cursor: pointer;
+}
+
+table {
+    width: auto;
+}
+
+span {
+    font-weight: 700;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(168, 144, 115);
+  }
+
+.string {
+    border-bottom: 2px solid;
+    border-color: gray;
+    margin-top: 10px;
+}
+
+.form {
+    position: absolute;
+    font-size: x-large;
+    font-weight: 500;
+    transform: rotate(-90deg);
+    margin-top: 55px;
+    margin-left: 80px;
+}
+
+.asterisk-disc {
+    position: absolute;
+    font-size: x-large;
+    transform: rotate(-90deg);
+    margin-top: 550px;
+    margin-left: -180px;
+}
+
+.asterisk-disc-img {
+    height: 15px;
+    width: 15px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.asterisk {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+}
+
+.standart-personal-info-text {
+    font-size: large;
+    font-weight: 500;
+}
+
+.main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: 500;
+    position: relative;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.logo {
+    height: 130px;
+    width: 400px;
+    z-index: -1000;
+    margin-top: -20px;
+}
+
+.info-box {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.protocol-title-numbers {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.protocol-title-text {
+    font-size: xx-large;
+    font-weight: 600;  
+    margin-right: 2px;
+}
+
+.left-box-first {
+    padding: 10px;
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    position: relative;
+}
+
+.semicolon {
+    z-index: 10;
+    margin-left: -20px;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.left-box-second {
+    padding: 10px;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    position: relative;
+    margin-left: -1px;
+}
+
+.slash {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.protocol-title-disc {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.first-section-disc {
+    display: flex;
+    margin-top: 10px;
+}
+
+.application {
+    border: 2px solid;
+    width: 600px; 
+    padding: 5px;
+}
+
+.application-title {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.application-date {
+    font-size: x-large;
+}
+
+.through-number {
+    display: flex;
+}
+
+.through-number-text {
+    text-align: center;
+    border: 2px solid;
+    padding: 5px 20px;
+    width: 280px;
+}
+
+.through-number-text-title {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.through-number-box {
+    border: 3px solid;
+    border-color: gray;
+    width: 280px;
+}
+
+.through-number-box-input {
+    height: 100px;
+    width: 275px;
+}
+
+.second-section-disc {
+    display: flex;
+    margin-top: 10px;
+}
+
+.end-date-rise {
+    border: 2px solid;
+    width: 400px;
+    padding: 5px;
+}
+
+.end-date-rise-title {
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
+}
+
+.end-date-rise-date {
+    font-size: x-large;
+    text-align: center;
+}
+
+.number-slice {
+    display: flex;
+    border: 2px solid;
+    width: 400px;
+    padding: 5px;
+}
+
+.number-slice-disc {
+    font-size: large;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.number-slice-box {
+    border: 5px solid;
+    border-color: gray;
+}
+
+.number-slice-box-input {
+    height: 54px;
+}
+
+.dobor {
+    border: 2px solid;
+    display: flex;
+    width: 400px;
+    padding: 5px;
+}
+
+.dobor-yes {
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+}
+
+.dobor-title {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 0 80px;
+}
+
+.dobor-no {
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+}
+
+.third-section-disc {
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid;  
+    align-items: center;
+}
+
+.belonging-title {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.belonging-rkka {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.belonging-other {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.belonging-justification {
+    margin-left: 10px;
+}
+
+.justification-box {
+    margin-left: 5px;
+}
+
+.fourth-section-disc {
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid;  
+    align-items: center;
+}
+
+.future-occurrence-title {
+    font-size: x-large;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.future-occurrence-box-input {
+    margin-left: 10px;
+}
+
+.fifth-section-disc {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.presonal-item-remains {
+    display: flex;
+    font-size: x-large;
+    font-weight: 400;
+    align-items: end;
+    border: 2px solid;
+    padding: 5px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.presonal-item-without-remains {
+    display: flex;
+    font-size: x-large;
+    font-weight: 400;
+    align-items: end;
+    border: 2px solid;
+    border-left: none;
+    padding: 5px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.medallion {
+    display: flex;
+    font-size: x-large;
+    font-weight: 400;
+    align-items: end;
+    border: 2px solid;
+    border-left: none;
+    padding: 5px;
+    width: 400px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.skeleton {
+    margin-top: 10px;
+    display: flex;
+}
+
+.skeleton-plan {
+    position: relative;
+    border: 2px solid;
+    width: 600px;
+    height: 1183px;
+    padding: 5px;
+}
+
+.skull-left {
+    position: absolute;
+    margin-left: 120px;
+    width: 120px;
+}
+
+.skull-right {
+    position: absolute;
+    transform: scaleX(-1);
+    width: 120px;
+    margin-left: 355px;
+}
+
+.cervical-vertebrae {
+    position: absolute;
+    width: 40px;
+    margin-left: 280px;
+    margin-top: 70px;
+}
+
+.sternum {
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 60px;
+    width: 45px;
+    transform: scaleY(-1);
+}
+
+.body {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 160px;
+    width: 250px;
+}
+
+.right-hand {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 100px;
+}
+
+.left-hand {
+    position: absolute;
+    width: 100px;
+    margin-left: 457px;
+    margin-top: 150px;
+    transform: scaleX(-1);
+}
+
+.right-leg {
+    position: absolute;
+    width: 100px;
+    margin-top: 440px;
+    margin-left: 160px;
+    z-index: -1;
+}
+
+.left-leg {
+    position: absolute;
+    width: 100px;
+    z-index: -1;
+    margin-top: 440px;
+    margin-left: 364px;
+    transform: scaleX(-1);
+}
+
+.skeleton-disc {
+   margin-top: 800px;
+   width: 600px;
+   border-top: 2px solid;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 20px 20px;
+}
+
+.male-and-asterisk {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.gender-title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.female {
+    font-size: x-large;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.sides {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.photofixation {
+    width: 585px;
+    border: 2px solid;
+    border-left: none;
+    padding: 5px;
+}
+
+.photofixation-title {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.photofixation-title-disc {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.mark {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+    font-size: large;
+}
+
+.participants {
+    border: 2px solid;
+    border-top: none ;
+    border-left: none;
+    padding: 5px;
+}
+
+.majot-title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.major input {
+    width: 573px;
+    border-bottom: 2px solid;
+    border-color: gray;
+}
+
+.other-participants-title {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.other-participants input {
+    width: 573px;
+}
+
+.extra-info {
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.extra-info-texts {
+    display: grid;
+}
+
+.extra-info-check {
+    display: grid;
+}
+
+.info-list {
+    padding: 5px;
+    border: 2px solid;
+    margin-top: 10px;
+}
+
+.info-list-disc {
+    position: absolute;
+    transform: rotate(90deg);
+    margin-left: 510px;
+    white-space: nowrap;
+    margin-top: 700px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.question {
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+    word-break: break-word;
+    margin: 5px;
+}
+
+.questi on-answer {
+    margin-left: 10px;
+}
+
+.question-text-extra {
+    margin-left: 20px;
+}
+
+.question-answer[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: rgb(177, 176, 176);
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+[placeholder]:empty:focus::before {
+    content: "";
+    cursor: pointer;
+}
+
+[placeholder] {
+    cursor: pointer;
+}
+
+.global-info {
+    display: flex;
+}
+
+.ammo_and_photo {
+    display: flex;
+}
+
+.ammo {
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    border-top:none ;   
+}
+
+.ammo-title {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex; 
+    align-items: center; 
+}
+
+.ammo-title p {
+    text-align: center;
+    margin-left: 0; 
+    transform: rotate(180deg);
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.patron-block {
+    display: grid;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+.one-patron-block {
+    position: relative;
+    margin-top: -5px;
+}
+
+.first-patron-input {
+    position: absolute;
+    top: 12%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.second-patron-input {
+    position: absolute;
+    top: 42%; 
+    left: 65%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    transform: rotate(90deg);
+}
+
+.third-patron-input {
+    position: absolute;
+    top: 41%; 
+    left: -3%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    transform: rotate(-90deg);
+}
+
+.fourth-patron-input {
+    position: absolute;
+    top: 81%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+}
+
+.photo {
+    display: grid;
+    justify-content: center;
+    border: 2px solid;
+    padding: 0 30px;
+    border-top: none;
+    border-left: none;
+    min-width: 370px;
+}
+
+.photo-title {
+    font-weight: 600;
+    font-size: small;
+}
+
+.artefact-place-store {
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    padding: 8px;
+    width: 547px;
+}
+
+.artefact-place-store-title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.artefact-place-store-other-text {
+    font-size: x-large; 
+    font-weight: 400;   
+}
+
+.personal-info {
+    border: 2px solid;
+    border-top: none;
+    padding: 5px;
+}
+
+.personal-info-part {
+    display: flex;
+}
+
+.personal-info-part-left {
+    border-right: 2px solid;
+    padding: 5px;
+}
+
+.personal-info-part-right {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.personal-info-title {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.personal-info-extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.dna-analysis {
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    padding: 5px;
+}
+
+.dna-analysis-date-and-number {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.sample-number-bone-name {
+    display: grid;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sample-number-bone-name-extra {
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.report {
+    padding: 5px;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    text-align: center;
+}
+.report-title {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.report-img {
+    width: 547px;
+    margin-top: 10px;
+}
+
+.emty-field {
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.executor {
+    border: 2px solid;
+    border-top: none;
+    padding: 5px;
+}
+
+.executor-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.executor-text-area {
+    font-size: x-large;
+    font-weight: 500;
+    display: flex;
+}
+
+.executor-personal-info {
+    margin-left: 20px;
+}
+
+
+
+
+
